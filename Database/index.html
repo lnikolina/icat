@@ -27,9 +27,43 @@
                 color: rgba(0, 0, 0, 0.54);
             }
             div.logo {
-                margin: auto;
+                margin:  0 auto;
                 text-align: center;
                 width: auto;
+                height: auto;
+                left: auto;
+            }
+            div.start {
+                margin: 0;
+                padding: 0;
+                height: 5vh;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+            .btn {
+                font-family: "Roboto", sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                background: #FF5973;
+                width: 100px;
+                padding: 15px;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                border-radius: 25px;
+                cursor: pointer;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+                -webkit-transition-duration: 0,3s;
+                transition-duration: 0,3s;
+                -webkit-transition-property: box-shadow transform;
+                transition-property: box-shadow, transform;
+            }
+            .btn:hover, .btn:focus, .btn:active {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0,5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
             }
 
         </style>
@@ -41,6 +75,9 @@
         <div class="logo">
         <img src="../Database/Images/Logo.jpg" alt="logo">
         </div>
-
+        
+        <div class="start">
+        <a href="#" class="btn">START</a>
+        </div>
     </body>
 </html>
