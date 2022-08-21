@@ -19,59 +19,81 @@
     <body class="home">
 
         <style>
-            .navbar-brand{
+            a {
                 color: #FF5973;
+                font-size: 15px;
             }
 
+            div.scrollmenu {
+            background-color: #FF5973;
+            overflow: auto;
+            white-space: nowrap;
+            }
+
+            div.scrollmenu a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            }
+
+            div.scrollmenu a:hover {
+            background-color: white;
+            color: #FF5973;
+
+            }
+        
         </style>
 
 
-
+<!-- ********** NAVBAR ********** -->
     <header class="primary-header flex">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">icat</a>
-
-            
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-
-              <ul class="navbar-nav">
-                
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Profile</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Privacy Policy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-
-              </ul>
-
-
-            </div>
-
-            
-
-          </nav>
+        <!-- Nav tabs -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Pets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu2">Shelters</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Contact</a>
+    </li>
+    
+  </ul>
+       
     </header>
+
+<!-- *********** HORIZONTAL SCROLL *********** -->
+    <div class="scrollmenu">
+        <a href="#about">ALL</a>
+        <a href="#home">Abyssinian</a>
+        <a href="#news">American Bobtail</a>
+        <a href="#about">Balinese-Javanese</a>
+        <a href="#about">Bengal</a>
+        <a href="#about">Birman</a>
+        <a href="#about">Bombay</a>
+        <a href="#about">British Shorthair</a>
+        <a href="#about">Burmese</a>
+        <a href="#about">Chartreux</a>
+        <a href="#about">Cornish Rex</a>
+        <a href="#about">Devon Rex</a>
+        <a href="#about">Egyptian Mau</a>
+        <a href="#about">European Burmese</a>
+        <a href="#about">Exotic Shorthair</a>
+        <a href="#about">Havana Brown</a>
+        <a href="#about">Himalayan Cat</a>
+        <a href="#about">Japanese Bobtail</a>
+        <a href="#about">Korat Cat</a>
+        <a href="#about">LaPerm</a>
+        <a href="#about">Maine Coon</a>
+        <a href="#about">Manx</a>
+    
+      </div>
 
     </body>
 
