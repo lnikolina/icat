@@ -20,32 +20,9 @@
     <script src="../javascript/home.js"></script>
         
         <style>
-/* ----------------- HORIZONTAL SCROLL BREEDS ----------------- */
-            body{
-                background-color: #333;
-            }
-            a {
-            color: #FF5973;
-            font-size: 15px;
-            }
-            div.scrollmenu {
-            background-color: #333;
-            overflow: auto;
-            white-space: nowrap;
-            }
-            div.scrollmenu a {
-            display: inline-block;
-            color: white;
-            text-align: center;
-            padding: 2px 20px;
-            text-decoration: none;
-            border: 1px solid white;
-            
-            }
-            div.scrollmenu a:hover {
-            background-color: #333;
-            color: #FF5973;
-            }
+/* ----------------- SCROLL BREEDS ----------------- */
+
+
         
 /* ----------------- NAVIGATION BAR (MENU BAR) ----------------- */
         /* Add a black background color to the top navigation */
@@ -126,32 +103,80 @@
 </div>
 
   
-<!-- *********** HORIZONTAL SCROLL BREEDS *********** -->
-    <div class="scrollmenu">
-        <a href="#about">ALL</a>
-        <a href="#home">Abyssinian</a>
-        <a href="#news">American Bobtail</a>
-        <a href="#about">Balinese-Javanese</a>
-        <a href="#about">Bengal</a>
-        <a href="#about">Birman</a>
-        <a href="#about">Bombay</a>
-        <a href="#about">British Shorthair</a>
-        <a href="#about">Burmese</a>
-        <a href="#about">Chartreux</a>
-        <a href="#about">Cornish Rex</a>
-        <a href="#about">Devon Rex</a>
-        <a href="#about">Egyptian Mau</a>
-        <a href="#about">European Burmese</a>
-        <a href="#about">Exotic Shorthair</a>
-        <a href="#about">Havana Brown</a>
-        <a href="#about">Himalayan Cat</a>
-        <a href="#about">Japanese Bobtail</a>
-        <a href="#about">Korat Cat</a>
-        <a href="#about">LaPerm</a>
-        <a href="#about">Maine Coon</a>
-        <a href="#about">Manx</a>
-    
+<!-- *********** SCROLL BREEDS *********** -->
+
+<div class="row">
+    <div class="col-4">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">ALL</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Abyssinian</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">American Bobtail</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Balinese-Javanese</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-5">Bengal</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-6">Birman</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-7">Bombay</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-8">British Shorthair</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-9">Burmese</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-10">Chartreu</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-11">Cornish Rex</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-12">Devon Rex</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-13">European Burmese</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-14">Exotic Shorthair</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-15">Havana Brown</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-16">Himalayan Cat</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-17">Japanese Bobtail</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-18">Korat Cat</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-19">LaPerm</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-20">Maine Coon</a>
       </div>
+    </div>
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">ALL</h4>
+        <p>...</p>
+        <h4 id="list-item-2">Abyssinian</h4>
+        <p>...</p>
+        <h4 id="list-item-3">American Bobtail</h4>
+        <p>...</p>
+        <h4 id="list-item-4">Balinese-Javanese</h4>
+        <p>...</p>
+        <h4 id="list-item-5">Bengal</h4>
+        <p>...</p>
+        <h4 id="list-item-6">Birman</h4>
+        <p>...</p>
+        <h4 id="list-item-7">Bombay</h4>
+        <p>...</p>
+        <h4 id="list-item-8">British Shorthair</h4>
+        <p>...</p>
+        <h4 id="list-item-9">Burmese</h4>
+        <p>...</p>
+        <h4 id="list-item-10">Chartreu</h4>
+        <p>...</p>
+        <h4 id="list-item-11">Cornish Rex</h4>
+        <p>...</p>
+        <h4 id="list-item-12">Devon Rex</h4>
+        <p>...</p>
+        <h4 id="list-item-13">Egyptian Mau</h4>
+        <p>...</p>
+        <h4 id="list-item-14">European Burmese</h4>
+        <p>...</p>
+        <h4 id="list-item-15">Havana Brown</h4>
+        <p>...</p>
+        <h4 id="list-item-16">Himalayan Cat</h4>
+        <p>...</p>
+        <h4 id="list-item-17">Japanese Bobtail</h4>
+        <p>...</p>
+        <h4 id="list-item-18">Korat Cat</h4>
+        <p>...</p>
+        <h4 id="list-item-19">LaPerm</h4>
+        <p>...</p>
+        <h4 id="list-item-20">Maine Coon</h4>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+
+
 
     </body>
 
